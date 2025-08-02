@@ -1,7 +1,7 @@
 import openvino_genai as ov_genai
 
 def RunSimpleChat():
-    model_dir = "./OpenVINO/Phi-3.5-mini-instruct-int4-cw-ov"
+    model_dir = "./models/Phi-3.5-mini-instruct-int4-cw-ov"
     pipe = ov_genai.LLMPipeline(model_dir, device="NPU")  # pyright: ignore[reportArgumentType]
     
     while True:
