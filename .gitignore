@@ -209,3 +209,4 @@ __marimo__/
 models/
 .vscode/settings.json
 in-progress_scripts/
+prompt-template/
